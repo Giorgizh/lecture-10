@@ -30,6 +30,20 @@ ul {
   gap: 50px;
   color: #636060;
 }
+.big{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.text{
+  position: absolute;
+  color: #fff;
+  left: 30%;
+  top: 30%;
+  H1{ font-size: 79px;padding-bottom: 5%;}
+  p{ font-size: 19px; padding-left: 20%;}
+}
 main {
   max-width: 1440px;
   margin: 0 auto;
