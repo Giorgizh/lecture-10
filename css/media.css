@@ -1,9 +1,26 @@
-@media (max-width: 520px) {
+@media (max-width: 540px) {
   ul {
     display: none;
   }
   i {
     display: block !important;
+  }
+  .big img {
+    max-width: 540px;
+    min-width: 350px;
+  }
+  .text {
+    left: 25%;
+  }
+  .text H1 {
+    font-size: 30px;
+  }
+  .text p {
+    font-size: 12px;
+    padding-left: 0px;
+  }
+  .left-side {
+    padding-left: 5%;
   }
 }
 
@@ -15,7 +32,6 @@
   .left-side {
     width: 100% !important;
   }
-
   .right-side {
     width: 100%;
   }
@@ -24,7 +40,11 @@
     width: 95%;
   }
 }
-
+/* @media (max-width: 800px) {
+  .text{
+    left: 20%;
+  }
+} */
 @media (max-width: 1200px) {
   main {
     -webkit-box-orient: vertical;
